@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <link href='metricsgraphics.css' rel='stylesheet' type='text/css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js' charset='utf-8'></script>
+    <script src='metricsgraphics.min.js'></script>
+</head>
+<body>
+<div id='ufo-sightings'></div>
+<script>
+    d3.json('/all', function(data) {
+        data = MG.convert.date(data, 'timestamp','%Y-%m-%dT%H:%M:%S.%LZ');
+        MG.data_graphic({
+            title: "Sample Power Consumption",
+            description: "Recent Power Consumption.",
+            data: data,
+            width: 1200,
+            height: 400,
+            target: '#ufo-sightings',
+            x_accessor: 'timestamp',
+            y_accessor: 'currentPowerConsumptionW'
+        })
+    })
+</script>
+</body>
+</html>

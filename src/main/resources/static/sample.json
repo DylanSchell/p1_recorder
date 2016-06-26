@@ -1,0 +1,1962 @@
+[
+  {
+    "timestamp": "2016-06-26T20:02:28.107Z",
+    "electricityConsumptionLowRateKwh": 3580.707,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 548,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T19:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:02:37.930Z",
+    "electricityConsumptionLowRateKwh": 3580.708,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 558,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:02:47.930Z",
+    "electricityConsumptionLowRateKwh": 3580.710,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 431,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:02:57.930Z",
+    "electricityConsumptionLowRateKwh": 3580.711,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 540,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:03:07.929Z",
+    "electricityConsumptionLowRateKwh": 3580.713,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 428,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:03:17.929Z",
+    "electricityConsumptionLowRateKwh": 3580.714,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 546,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:03:27.930Z",
+    "electricityConsumptionLowRateKwh": 3580.716,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 534,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:03:37.931Z",
+    "electricityConsumptionLowRateKwh": 3580.717,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 438,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:03:47.932Z",
+    "electricityConsumptionLowRateKwh": 3580.718,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 553,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:03:57.931Z",
+    "electricityConsumptionLowRateKwh": 3580.720,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 538,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:04:07.962Z",
+    "electricityConsumptionLowRateKwh": 3580.721,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 428,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:04:17.933Z",
+    "electricityConsumptionLowRateKwh": 3580.723,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 549,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:04:27.932Z",
+    "electricityConsumptionLowRateKwh": 3580.724,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 568,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:04:37.931Z",
+    "electricityConsumptionLowRateKwh": 3580.725,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 435,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:04:47.931Z",
+    "electricityConsumptionLowRateKwh": 3580.727,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 545,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:04:58.041Z",
+    "electricityConsumptionLowRateKwh": 3580.728,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 475,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:05:07.932Z",
+    "electricityConsumptionLowRateKwh": 3580.730,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 477,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:05:17.932Z",
+    "electricityConsumptionLowRateKwh": 3580.731,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 549,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:05:27.934Z",
+    "electricityConsumptionLowRateKwh": 3580.733,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 483,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:05:37.935Z",
+    "electricityConsumptionLowRateKwh": 3580.734,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 540,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:05:47.932Z",
+    "electricityConsumptionLowRateKwh": 3580.735,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 545,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:05:57.931Z",
+    "electricityConsumptionLowRateKwh": 3580.737,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 433,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:06:07.934Z",
+    "electricityConsumptionLowRateKwh": 3580.738,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 537,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:06:17.932Z",
+    "electricityConsumptionLowRateKwh": 3580.740,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 544,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:06:27.932Z",
+    "electricityConsumptionLowRateKwh": 3580.741,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 438,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:06:37.933Z",
+    "electricityConsumptionLowRateKwh": 3580.743,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 548,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:06:47.932Z",
+    "electricityConsumptionLowRateKwh": 3580.744,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 560,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:06:57.933Z",
+    "electricityConsumptionLowRateKwh": 3580.745,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 436,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:07:07.933Z",
+    "electricityConsumptionLowRateKwh": 3580.747,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 533,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:07:17.933Z",
+    "electricityConsumptionLowRateKwh": 3580.748,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 560,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:07:27.935Z",
+    "electricityConsumptionLowRateKwh": 3580.750,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 431,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:07:37.934Z",
+    "electricityConsumptionLowRateKwh": 3580.751,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 528,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:07:47.934Z",
+    "electricityConsumptionLowRateKwh": 3580.752,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 430,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:07:57.940Z",
+    "electricityConsumptionLowRateKwh": 3580.754,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 551,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:08:07.934Z",
+    "electricityConsumptionLowRateKwh": 3580.755,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 538,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:08:17.934Z",
+    "electricityConsumptionLowRateKwh": 3580.757,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 428,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:08:27.934Z",
+    "electricityConsumptionLowRateKwh": 3580.759,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 427,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:08:37.934Z",
+    "electricityConsumptionLowRateKwh": 3580.759,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 550,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:08:47.935Z",
+    "electricityConsumptionLowRateKwh": 3580.761,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 436,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:08:57.934Z",
+    "electricityConsumptionLowRateKwh": 3580.762,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 579,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:09:17.934Z",
+    "electricityConsumptionLowRateKwh": 3580.765,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 449,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:09:27.935Z",
+    "electricityConsumptionLowRateKwh": 3580.767,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 448,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:09:37.938Z",
+    "electricityConsumptionLowRateKwh": 3580.768,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 564,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:09:47.935Z",
+    "electricityConsumptionLowRateKwh": 3580.770,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 419,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:09:57.936Z",
+    "electricityConsumptionLowRateKwh": 3580.771,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 538,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:10:07.936Z",
+    "electricityConsumptionLowRateKwh": 3580.772,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 455,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:10:17.936Z",
+    "electricityConsumptionLowRateKwh": 3580.774,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 493,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:10:27.935Z",
+    "electricityConsumptionLowRateKwh": 3580.775,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 556,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:10:37.936Z",
+    "electricityConsumptionLowRateKwh": 3580.776,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 426,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:10:47.938Z",
+    "electricityConsumptionLowRateKwh": 3580.778,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 544,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:10:57.937Z",
+    "electricityConsumptionLowRateKwh": 3580.779,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 525,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:11:07.936Z",
+    "electricityConsumptionLowRateKwh": 3580.781,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 429,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:11:17.938Z",
+    "electricityConsumptionLowRateKwh": 3580.782,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 517,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:11:27.939Z",
+    "electricityConsumptionLowRateKwh": 3580.783,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 552,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:11:37.937Z",
+    "electricityConsumptionLowRateKwh": 3580.785,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 565,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:11:47.937Z",
+    "electricityConsumptionLowRateKwh": 3580.786,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 511,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:11:57.939Z",
+    "electricityConsumptionLowRateKwh": 3580.788,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 451,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:12:07.937Z",
+    "electricityConsumptionLowRateKwh": 3580.789,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 490,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:12:17.938Z",
+    "electricityConsumptionLowRateKwh": 3580.790,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 472,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:12:27.938Z",
+    "electricityConsumptionLowRateKwh": 3580.792,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 497,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:12:37.938Z",
+    "electricityConsumptionLowRateKwh": 3580.793,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 439,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:12:47.938Z",
+    "electricityConsumptionLowRateKwh": 3580.795,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 1033,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:12:57.938Z",
+    "electricityConsumptionLowRateKwh": 3580.796,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 421,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:13:07.938Z",
+    "electricityConsumptionLowRateKwh": 3580.797,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 431,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:13:17.940Z",
+    "electricityConsumptionLowRateKwh": 3580.798,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 408,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:13:27.939Z",
+    "electricityConsumptionLowRateKwh": 3580.799,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 400,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:13:37.939Z",
+    "electricityConsumptionLowRateKwh": 3580.800,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 403,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:13:47.941Z",
+    "electricityConsumptionLowRateKwh": 3580.802,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 475,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:13:57.939Z",
+    "electricityConsumptionLowRateKwh": 3580.803,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 443,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:14:07.939Z",
+    "electricityConsumptionLowRateKwh": 3580.805,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 428,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:14:17.942Z",
+    "electricityConsumptionLowRateKwh": 3580.806,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 391,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:14:27.942Z",
+    "electricityConsumptionLowRateKwh": 3580.807,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 392,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:14:37.940Z",
+    "electricityConsumptionLowRateKwh": 3580.808,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 417,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:14:47.940Z",
+    "electricityConsumptionLowRateKwh": 3580.809,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 450,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:14:57.941Z",
+    "electricityConsumptionLowRateKwh": 3580.810,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 422,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:15:07.950Z",
+    "electricityConsumptionLowRateKwh": 3580.812,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 442,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:15:17.939Z",
+    "electricityConsumptionLowRateKwh": 3580.813,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 435,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:15:27.940Z",
+    "electricityConsumptionLowRateKwh": 3580.814,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 416,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:15:37.942Z",
+    "electricityConsumptionLowRateKwh": 3580.816,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 397,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:15:47.941Z",
+    "electricityConsumptionLowRateKwh": 3580.817,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 403,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:15:57.941Z",
+    "electricityConsumptionLowRateKwh": 3580.818,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 433,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:16:07.941Z",
+    "electricityConsumptionLowRateKwh": 3580.819,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 400,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:16:17.942Z",
+    "electricityConsumptionLowRateKwh": 3580.820,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 396,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:16:27.941Z",
+    "electricityConsumptionLowRateKwh": 3580.821,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 444,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:16:37.944Z",
+    "electricityConsumptionLowRateKwh": 3580.823,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 421,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:16:47.944Z",
+    "electricityConsumptionLowRateKwh": 3580.824,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 764,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:17:07.944Z",
+    "electricityConsumptionLowRateKwh": 3580.828,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 809,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:17:17.945Z",
+    "electricityConsumptionLowRateKwh": 3580.831,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 780,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:17:27.943Z",
+    "electricityConsumptionLowRateKwh": 3580.833,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 759,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:17:37.941Z",
+    "electricityConsumptionLowRateKwh": 3580.835,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 772,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:17:47.942Z",
+    "electricityConsumptionLowRateKwh": 3580.837,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 763,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:17:57.943Z",
+    "electricityConsumptionLowRateKwh": 3580.839,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 762,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:18:07.943Z",
+    "electricityConsumptionLowRateKwh": 3580.841,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 770,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:18:17.943Z",
+    "electricityConsumptionLowRateKwh": 3580.843,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 789,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:18:27.942Z",
+    "electricityConsumptionLowRateKwh": 3580.846,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 789,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:18:37.944Z",
+    "electricityConsumptionLowRateKwh": 3580.848,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 785,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:18:47.944Z",
+    "electricityConsumptionLowRateKwh": 3580.850,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 778,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:18:57.944Z",
+    "electricityConsumptionLowRateKwh": 3580.852,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 782,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:19:07.945Z",
+    "electricityConsumptionLowRateKwh": 3580.854,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 774,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:19:17.944Z",
+    "electricityConsumptionLowRateKwh": 3580.856,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 776,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:19:27.944Z",
+    "electricityConsumptionLowRateKwh": 3580.859,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 775,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:19:37.946Z",
+    "electricityConsumptionLowRateKwh": 3580.862,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 814,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:19:47.945Z",
+    "electricityConsumptionLowRateKwh": 3580.864,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 1065,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:19:57.945Z",
+    "electricityConsumptionLowRateKwh": 3580.867,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 1000,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:20:07.947Z",
+    "electricityConsumptionLowRateKwh": 3580.870,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 977,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:20:17.948Z",
+    "electricityConsumptionLowRateKwh": 3580.872,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 976,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:20:27.948Z",
+    "electricityConsumptionLowRateKwh": 3580.875,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 989,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:20:37.945Z",
+    "electricityConsumptionLowRateKwh": 803580.878,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 995,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:20:47.949Z",
+    "electricityConsumptionLowRateKwh": 3580.881,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 983,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:20:57.946Z",
+    "electricityConsumptionLowRateKwh": 3580.883,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 981,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:21:07.946Z",
+    "electricityConsumptionLowRateKwh": 3580.885,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 382,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:21:17.946Z",
+    "electricityConsumptionLowRateKwh": 3580.887,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 389,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:21:27.947Z",
+    "electricityConsumptionLowRateKwh": 3580.888,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 383,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:21:37.947Z",
+    "electricityConsumptionLowRateKwh": 3580.889,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 401,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:21:47.947Z",
+    "electricityConsumptionLowRateKwh": 3580.890,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 386,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:21:57.948Z",
+    "electricityConsumptionLowRateKwh": 3580.891,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 406,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:22:07.948Z",
+    "electricityConsumptionLowRateKwh": 3580.892,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 399,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:22:17.947Z",
+    "electricityConsumptionLowRateKwh": 3580.893,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 385,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:22:27.949Z",
+    "electricityConsumptionLowRateKwh": 3580.894,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 392,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:22:37.950Z",
+    "electricityConsumptionLowRateKwh": 3580.895,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 379,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:22:47.947Z",
+    "electricityConsumptionLowRateKwh": 3580.896,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 383,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:22:57.949Z",
+    "electricityConsumptionLowRateKwh": 3580.897,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 390,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:23:07.949Z",
+    "electricityConsumptionLowRateKwh": 3580.898,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 379,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:23:17.949Z",
+    "electricityConsumptionLowRateKwh": 3580.899,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 368,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:23:27.951Z",
+    "electricityConsumptionLowRateKwh": 3580.901,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 370,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:23:37.948Z",
+    "electricityConsumptionLowRateKwh": 3580.902,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 366,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:23:47.949Z",
+    "electricityConsumptionLowRateKwh": 3580.903,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 377,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:23:57.949Z",
+    "electricityConsumptionLowRateKwh": 3580.904,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 372,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:24:07.950Z",
+    "electricityConsumptionLowRateKwh": 3580.905,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 379,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:24:17.948Z",
+    "electricityConsumptionLowRateKwh": 3580.906,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 371,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:24:27.949Z",
+    "electricityConsumptionLowRateKwh": 3580.907,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 365,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:24:37.949Z",
+    "electricityConsumptionLowRateKwh": 3580.908,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 361,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:24:47.949Z",
+    "electricityConsumptionLowRateKwh": 3580.909,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 387,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:24:57.951Z",
+    "electricityConsumptionLowRateKwh": 3580.910,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 376,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:25:07.950Z",
+    "electricityConsumptionLowRateKwh": 3580.911,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 387,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:25:17.950Z",
+    "electricityConsumptionLowRateKwh": 3580.912,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 397,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:25:27.951Z",
+    "electricityConsumptionLowRateKwh": 3580.913,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 396,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:25:37.951Z",
+    "electricityConsumptionLowRateKwh": 3580.914,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 391,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:25:47.948Z",
+    "electricityConsumptionLowRateKwh": 3580.915,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 393,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  },
+  {
+    "timestamp": "2016-06-26T20:25:57.950Z",
+    "electricityConsumptionLowRateKwh": 3580.916,
+    "electricityConsumptionNormalRateKwh": 3435.785,
+    "electricityProductionLowRateKwh": 0.000,
+    "electricityProductionNormalRateKwh": 0.000,
+    "currentPowerConsumptionW": 381,
+    "currentPowerProductionW": 0,
+    "gasConsumptionM3": null,
+    "gasMeasurement": {
+      "timestamp": "2016-06-26T20:00:00.000Z",
+      "gasConsumptionM3": 2956.561
+    }
+  }
+]
