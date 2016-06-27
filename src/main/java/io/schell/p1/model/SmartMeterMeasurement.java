@@ -1,12 +1,14 @@
 package io.schell.p1.model;
 
 import org.joda.time.DateTime;
+import org.springframework.data.annotation.Id;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
 
 public class SmartMeterMeasurement implements Serializable {
-
+    @Id
+    private String id;
     private DateTime timestamp;
     private BigDecimal electricityConsumptionLowRateKwh;
     private BigDecimal electricityConsumptionNormalRateKwh;
@@ -142,5 +144,13 @@ public class SmartMeterMeasurement implements Serializable {
 
     public void setGasMeasurement(GasMeasurement gasMeasurement) {
         this.gasMeasurement = gasMeasurement;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }

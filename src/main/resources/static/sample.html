@@ -6,21 +6,37 @@
     <script src='metricsgraphics.min.js'></script>
 </head>
 <body>
-<div id='ufo-sightings'></div>
+<div id='hour'></div>
+<div id='day'></div>
+
 <script>
-    d3.json('/all', function(data) {
-        data = MG.convert.date(data, 'timestamp','%Y-%m-%dT%H:%M:%S.%LZ');
+    d3.json('/hour', function(dataIn) {
+        dataOut = MG.convert.date(dataIn, 'timestamp','%Y-%m-%dT%H:%M:%S.%LZ');
         MG.data_graphic({
-            title: "Sample Power Consumption",
-            description: "Recent Power Consumption.",
-            data: data,
+            title: "Last Hour",
+            description: "Power consumption in the last hour.",
+            data: dataOut,
             width: 1200,
-            height: 400,
-            target: '#ufo-sightings',
+            height: 500,
+            target: '#hour',
+            x_accessor: 'timestamp',
+            y_accessor: 'currentPowerConsumptionW'
+        })
+    });
+    d3.json('/day', function(dataIn) {
+        dataOut = MG.convert.date(dataIn, 'timestamp','%Y-%m-%dT%H:%M:%S.%LZ');
+        MG.data_graphic({
+            title: "Last Day",
+            description: "Power consumption in the last day.",
+            data: dataOut,
+            width: 1200,
+            height: 500,
+            target: '#day',
             x_accessor: 'timestamp',
             y_accessor: 'currentPowerConsumptionW'
         })
     })
+
 </script>
 </body>
 </html>

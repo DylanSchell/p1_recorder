@@ -8,10 +8,14 @@ import org.joda.time.format.DateTimeFormatter;
  * parses dsmr timestamp (160626195334S)
  */
 public class DateTimeParser implements ValueParser<DateTime> {
-    private static final DateTimeFormatter formatter = DateTimeFormat.forPattern("'('yyMMddHHmmss'S')");
+    private static final DateTimeFormatter formatter = DateTimeFormat.forPattern("yyMMddHHmmss");
 
     @Override
     public DateTime parse(String value) {
-        return DateTime.parse(value.substring(9), formatter);
+        String dst = value.substring(22,23);
+        String datePart = value.substring(10,22);
+        // TODO: do I need to take dst into account? ( 'S' Summmer 'W' Winter )
+        DateTime dateTime = DateTime.parse(datePart,formatter);
+        return dateTime;
     }
 }

@@ -1,5 +1,42 @@
-<html>
+<html lang="en">
+<head>
+    <link href='metricsgraphics.css' rel='stylesheet' type='text/css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js' charset='utf-8'></script>
+    <script src='metricsgraphics.min.js'></script>
+</head>
 <body>
-<a href="/p1">Current P1 Measurement</a>
+<div id='hour'></div>
+<div id='day'></div>
+
+<script>
+    d3.json('/hour', function(dataIn) {
+        dataOut = MG.convert.date(dataIn, 'timestamp','%Y-%m-%dT%H:%M:%S.%LZ');
+        MG.data_graphic({
+            title: "Last Hour",
+            description: "Power consumption in the last hour.",
+            data: dataOut,
+            width: 1200,
+            height: 500,
+            target: '#hour',
+            x_accessor: 'timestamp',
+            y_accessor: 'currentPowerConsumptionW',
+        })
+    });
+    d3.json('/day', function(dataIn) {
+        dataOut = MG.convert.date(dataIn, 'timestamp','%Y-%m-%dT%H:%M:%S.%LZ');
+        MG.data_graphic({
+            title: "Last Day",
+            description: "Power consumption in the last day.",
+            data: dataOut,
+            width: 1200,
+            height: 500,
+            target: '#day',
+            x_accessor: 'timestamp',
+            y_accessor: 'currentPowerConsumptionW',
+        })
+    })
+
+</script>
 </body>
 </html>
