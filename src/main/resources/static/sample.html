@@ -10,7 +10,7 @@
 <div id='day'></div>
 
 <script>
-    d3.json('/hour', function(dataIn) {
+    d3.json('/hour_minutes', function(dataIn) {
         dataOut = MG.convert.date(dataIn, 'timestamp','%Y-%m-%dT%H:%M:%S.%LZ');
         MG.data_graphic({
             title: "Last Hour",
@@ -23,7 +23,7 @@
             y_accessor: 'currentPowerConsumptionW'
         })
     });
-    d3.json('/day', function(dataIn) {
+    d3.json('/day_minutes', function(dataIn) {
         dataOut = MG.convert.date(dataIn, 'timestamp','%Y-%m-%dT%H:%M:%S.%LZ');
         MG.data_graphic({
             title: "Last Day",

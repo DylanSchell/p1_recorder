@@ -5,8 +5,10 @@ import io.schell.p1.model.SmartMeterMeasurement;
 import io.schell.p1.parser.DatagramParser;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -18,9 +20,15 @@ import java.util.List;
 @RestController
 class P1Controller {
     private static final int maxMeasurementsPerDay = 24 * 60 * 6;
-    private DatagramParser parser = new DatagramParser();
     @Autowired
     private MeasurementRepository repository;
+    private final DatagramParser parser = new DatagramParser();
+    private SmartMeterMeasurement lastMeasurement;
+
+    @Autowired
+    public P1Controller(MeasurementRepository repository) {
+        this.repository = repository;
+    }
 
     @RequestMapping(method = RequestMethod.POST, consumes = "text/plain", path = "/post")
     public void add(@RequestBody String body) {
@@ -29,6 +37,7 @@ class P1Controller {
             meterMeasurement.setTimestamp(DateTime.now());
         }
         repository.save(meterMeasurement);
+        lastMeasurement = meterMeasurement;
     }
 
     @RequestMapping(method = RequestMethod.GET, produces = "text/plain", path = "/post")
@@ -36,14 +45,18 @@ class P1Controller {
         return "PONG";
     }
 
-    @RequestMapping(method = RequestMethod.GET, produces = "text/plain", path = "/p1")
-    public String p1() {
-        List<SmartMeterMeasurement> measurements = repository.findAll();
-        if (measurements.isEmpty()) {
-            return "no measurement received";
+    @RequestMapping(method = RequestMethod.GET, produces = "application/json", path = "/p1")
+    @ResponseBody
+    public SmartMeterMeasurement p1() {
+        if (lastMeasurement == null) {
+            List<SmartMeterMeasurement> measurements = repository.findAll();
+            if (measurements.isEmpty()) {
+                return null;
+            } else {
+                lastMeasurement = measurements.get(measurements.size() - 1);
+            }
         }
-        SmartMeterMeasurement measurement = measurements.get(measurements.size() - 1);
-        return measurement.toString();
+        return lastMeasurement;
     }
 
     @RequestMapping(method = RequestMethod.GET, produces = "application/json", path = "/all")
@@ -70,6 +83,22 @@ class P1Controller {
         return cleanup(hour);
     }
 
+    @RequestMapping(method = RequestMethod.GET, produces = "application/json", path = "/hour_minutes")
+    public
+    @ResponseBody
+    List<SmartMeterMeasurement> hour_minutes() {
+        List<SmartMeterMeasurement> hour = repository.findByTimestampGreaterThan(DateTime.now().minusHours(1));
+        return filterMinutes(cleanup(hour));
+    }
+
+    @RequestMapping(method = RequestMethod.GET, produces = "application/json", path = "/day_minutes")
+    public
+    @ResponseBody
+    List<SmartMeterMeasurement> day_minutes() {
+        List<SmartMeterMeasurement> hour = repository.findByTimestampGreaterThan(DateTime.now().minusHours(24));
+        return filterMinutes(cleanup(hour));
+    }
+
     private List<SmartMeterMeasurement> cleanup(List<SmartMeterMeasurement> input) {
         Iterator<SmartMeterMeasurement> iter = input.iterator();
         while (iter.hasNext()) {
@@ -85,12 +114,28 @@ class P1Controller {
     }
 
     private List<SmartMeterMeasurement> filterMinutes(List<SmartMeterMeasurement> source) {
-        List<SmartMeterMeasurement> result = new ArrayList<SmartMeterMeasurement>();
         Iterator<SmartMeterMeasurement> iter = source.iterator();
         SmartMeterMeasurement cursor = iter.next();
-        while(iter.hasNext()) {
+        while (iter.hasNext()) {
             SmartMeterMeasurement n = iter.next();
+            if (n.getTimestamp().getMinuteOfHour() == cursor.getTimestamp().getMinuteOfHour()) {
+                iter.remove();
+            } else {
+                // set this consumption to be the n - cursor;
+                BigDecimal actual = orZero(n.getElectricityConsumptionNormalRateKwh())
+                        .add(orZero(n.getElectricityConsumptionLowRateKwh()))
+                        .subtract(orZero(cursor.getElectricityConsumptionNormalRateKwh())
+                                .add(orZero(n.getElectricityConsumptionLowRateKwh())));
+
+                n.setCurrentPowerConsumptionW(actual);
+                cursor = n;
+            }
         }
-        return result;
+        // ok now we only have minutes left
+        return source;
+    }
+
+    private BigDecimal orZero(BigDecimal input) {
+        return input == null ? BigDecimal.ZERO : input;
     }
 }
