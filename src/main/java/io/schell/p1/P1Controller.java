@@ -19,7 +19,10 @@ import java.util.List;
  */
 @RestController
 class P1Controller {
+    private static final BigDecimal K = BigDecimal.valueOf(1000);
+    private static final BigDecimal SECONDS_PER_MINUTE = BigDecimal.valueOf(60);
     private static final int maxMeasurementsPerDay = 24 * 60 * 6;
+
     @Autowired
     private MeasurementRepository repository;
     private final DatagramParser parser = new DatagramParser();
@@ -99,12 +102,19 @@ class P1Controller {
         return filterMinutes(cleanup(hour));
     }
 
+    @RequestMapping(method = RequestMethod.GET, produces = "application/json", path = "/gas")
+    public
+    @ResponseBody
+    List<SmartMeterMeasurement> gas() {
+        List<SmartMeterMeasurement> day = repository.findByTimestampGreaterThan(DateTime.now().minusHours(24));
+        return filterGas(cleanup(day));
+    }
+
     private List<SmartMeterMeasurement> cleanup(List<SmartMeterMeasurement> input) {
         Iterator<SmartMeterMeasurement> iter = input.iterator();
         while (iter.hasNext()) {
             SmartMeterMeasurement m = iter.next();
             if (m.getTimestamp() == null) {
-                System.out.println("remove");
                 iter.remove();
             }
             // horrible hack to get timezone correct
@@ -126,12 +136,43 @@ class P1Controller {
                         .add(orZero(n.getElectricityConsumptionLowRateKwh()))
                         .subtract(orZero(cursor.getElectricityConsumptionNormalRateKwh())
                                 .add(orZero(n.getElectricityConsumptionLowRateKwh())));
-
-                n.setCurrentPowerConsumptionW(actual);
-                cursor = n;
+                // actual is in KWh, we need to translate it to Ws?
+                actual = actual.multiply(K).multiply(SECONDS_PER_MINUTE);
+                if (actual.compareTo(BigDecimal.valueOf(5000)) > 0 || actual.compareTo(BigDecimal.valueOf(-5000)) < 0) {
+                    iter.remove();
+                } else {
+                    n.setCurrentPowerConsumptionW(actual);
+                    cursor = n;
+                }
             }
         }
         // ok now we only have minutes left
+        return source;
+    }
+
+    private List<SmartMeterMeasurement> filterGas(List<SmartMeterMeasurement> source) {
+        Iterator<SmartMeterMeasurement> iter = source.iterator();
+        SmartMeterMeasurement cursor = iter.next();
+        while ((cursor.getGasMeasurement() == null || cursor.getGasMeasurement().getGasConsumptionM3() == null || cursor.getGasMeasurement().getGasConsumptionM3().compareTo(BigDecimal.ZERO) == 0) && iter.hasNext()) {
+            iter.remove();
+            cursor = iter.next();
+        }
+        cursor.setGasConsumptionM3(cursor.getGasMeasurement().getGasConsumptionM3());
+        while (iter.hasNext()) {
+            SmartMeterMeasurement n = iter.next();
+            if (n.getGasMeasurement() == null || BigDecimal.ZERO.compareTo(n.getGasMeasurement().getGasConsumptionM3()) == 0) {
+                iter.remove();
+            } else {
+                if (orZero(n.getGasMeasurement().getGasConsumptionM3()).compareTo(orZero(cursor.getGasMeasurement().getGasConsumptionM3())) == 0) {
+                    iter.remove();
+                } else {
+                    n.setGasConsumptionM3(n.getGasMeasurement().getGasConsumptionM3());
+                    System.out.println(n.getGasConsumptionM3());
+                    cursor = n;
+                }
+            }
+        }
+        // ok now we only have changed gas measurements
         return source;
     }
 
