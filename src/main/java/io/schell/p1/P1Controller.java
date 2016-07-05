@@ -36,6 +36,9 @@ class P1Controller {
     @RequestMapping(method = RequestMethod.POST, consumes = "text/plain", path = "/post")
     public void add(@RequestBody String body) {
         SmartMeterMeasurement meterMeasurement = parser.parse(body);
+        if ( meterMeasurement == null ) {
+            return;
+        }
         if (meterMeasurement.getTimestamp() != null) {
             meterMeasurement.setTimestamp(DateTime.now());
         }

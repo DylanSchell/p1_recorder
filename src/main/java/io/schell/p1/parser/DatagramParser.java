@@ -37,7 +37,15 @@ public class DatagramParser {
     }
 
     public SmartMeterMeasurement parse(String datagram) {
-
+        int crc = io.schell.p1.parser.CRC16.slowCrc16(datagram.substring(0,datagram.length()-7).getBytes(),0x0000, io.schell.p1.parser.CRC16.stdPoly);
+        String crcString = Integer.toHexString(crc).toUpperCase();
+        String crcFromTelegram = datagram.substring(datagram.length()-7,datagram.length()-3);
+        logger.debug("calculated crc = {}",crcString);
+        logger.debug("telegram crc = {}",datagram.substring(datagram.length()-6));
+        if ( !crcString.equals(crcFromTelegram)) {
+            logger.warn("Received malformed telegram");
+            return null;
+        }
         SmartMeterMeasurement result = new SmartMeterMeasurement();
 
         String[] datagramLines = DatagramCleaner.asArray(datagram);
