@@ -15,7 +15,6 @@ public class DateTimeParser implements ValueParser<DateTime> {
         String dst = value.substring(22,23);
         String datePart = value.substring(10,22);
         // TODO: do I need to take dst into account? ( 'S' Summmer 'W' Winter )
-        DateTime dateTime = DateTime.parse(datePart,formatter);
-        return dateTime;
+        return DateTime.parse(datePart,formatter);
     }
 }

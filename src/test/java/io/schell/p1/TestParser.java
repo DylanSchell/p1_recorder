@@ -4,13 +4,14 @@ import io.schell.p1.model.SmartMeterMeasurement;
 import io.schell.p1.parser.DatagramParser;
 import org.junit.Assert;
 import org.junit.Test;
-import sun.misc.CRC16;
+
+import static io.schell.p1.parser.CRC16.*;
 
 /**
  * Created by dylan on 6/26/2016.
  */
 public class TestParser {
-    private String reading = "/XMX5LGBBFFB231176969\n" +
+    private static final String reading = "/XMX5LGBBFFB231176969\n" +
             "\n" +
             "1-3:0.2.8(42)\n" +
             "0-0:1.0.0(160626185210S)\n" +
@@ -37,7 +38,7 @@ public class TestParser {
             "0-1:24.2.1(160626180000S)(02956.288*m3)\n" +
             "!B768\n";
 
-    private String realReading = "/XMX5LGBBFFB231176969\n" +
+    private static final String realReading = "/XMX5LGBBFFB231176969\n" +
             "\n" +
             "1-3:0.2.8(42)\n" +
             "0-0:1.0.0(160705213002S)\n" +
@@ -73,6 +74,6 @@ public class TestParser {
     @Test
     public void testCRC() {
         String CRLF = realReading.replaceAll("\n","\r\n");
-        Assert.assertEquals("3bbe",Integer.toHexString(io.schell.p1.parser.CRC16.slowCrc16(CRLF.substring(0,CRLF.length()-7).getBytes(),0x0000, io.schell.p1.parser.CRC16.stdPoly)));
+        Assert.assertEquals("3bbe",Integer.toHexString(slowCrc16(CRLF.substring(0,CRLF.length()-7).getBytes(),0x0000, stdPoly)));
     }
 }

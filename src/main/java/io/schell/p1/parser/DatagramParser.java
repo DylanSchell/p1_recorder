@@ -11,9 +11,9 @@ import java.util.Map;
 
 public class DatagramParser {
 
-    private Logger logger = LoggerFactory.getLogger(getClass());
+    private final Logger logger = LoggerFactory.getLogger(getClass());
 
-    private Map<String, PropertyAndPattern> mapping;
+    private final Map<String, PropertyAndPattern> mapping;
 
     public DatagramParser() {
         mapping = new HashMap<>();
@@ -65,8 +65,8 @@ public class DatagramParser {
 
     private class PropertyAndPattern {
 
-        private ValueParser valueParser;
-        private String fieldName;
+        private final ValueParser valueParser;
+        private final String fieldName;
 
         public PropertyAndPattern(ValueParser valueParser, String fieldName) {
             this.valueParser = valueParser;
@@ -77,11 +77,7 @@ public class DatagramParser {
             Object value = valueParser.parse(line);
             try {
                 PropertyUtils.setProperty(measurement, fieldName, value);
-            } catch (IllegalAccessException e) {
-                logger.error(e.toString(), e);
-            } catch (InvocationTargetException e) {
-                logger.error(e.toString(), e);
-            } catch (NoSuchMethodException e) {
+            } catch (IllegalAccessException | InvocationTargetException | NoSuchMethodException e) {
                 logger.error(e.toString(), e);
             }
         }

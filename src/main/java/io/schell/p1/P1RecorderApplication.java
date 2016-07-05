@@ -1,13 +1,10 @@
 package io.schell.p1;
 
 import io.schell.p1.model.MeasurementRepository;
-import io.schell.p1.model.SmartMeterMeasurement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.List;
 
 @SpringBootApplication
 public class P1RecorderApplication  implements CommandLineRunner {

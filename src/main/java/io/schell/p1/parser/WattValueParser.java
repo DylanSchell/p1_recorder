@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class WattValueParser implements ValueParser<BigDecimal> {
 
-    private Pattern pattern;
+    private final Pattern pattern;
 
     public WattValueParser() {
         pattern = Pattern.compile("([0-9]*\\.[0-9]*)\\*kW");

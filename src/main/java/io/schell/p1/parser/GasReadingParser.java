@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
  */
 public class GasReadingParser implements ValueParser<GasMeasurement> {
     private static final DateTimeFormatter formatter = DateTimeFormat.forPattern("'('yyMMddHHmmss'S')");
-    private Pattern pattern = Pattern.compile("\\(([0-9]*\\.[0-9]*)\\*m3\\)");
+    private final Pattern pattern = Pattern.compile("\\(([0-9]*\\.[0-9]*)\\*m3\\)");
     @Override
     public GasMeasurement parse(String value) {
         String datePart = value.substring(10,25);
