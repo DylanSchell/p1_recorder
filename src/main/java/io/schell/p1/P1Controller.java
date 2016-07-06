@@ -106,7 +106,7 @@ class P1Controller {
     public
     @ResponseBody
     List<SmartMeterMeasurement> gas() {
-        List<SmartMeterMeasurement> day = repository.findByTimestampGreaterThan(DateTime.now().minusHours(24));
+        List<SmartMeterMeasurement> day = repository.findByTimestampGreaterThan(DateTime.now().minusHours(25));
         return filterGas(cleanup(day));
     }
 
@@ -167,9 +167,19 @@ class P1Controller {
                     iter.remove();
                 } else {
                     n.setGasConsumptionM3(n.getGasMeasurement().getGasConsumptionM3());
-                    System.out.println(n.getGasConsumptionM3());
                     cursor = n;
                 }
+            }
+        }
+        BigDecimal offset = null;
+        for(SmartMeterMeasurement m: source) {
+            if ( offset == null ) {
+                offset = m.getGasConsumptionM3();
+                m.setGasConsumptionM3(BigDecimal.ZERO);
+            } else {
+                BigDecimal temp = m.getGasConsumptionM3();
+                m.setGasConsumptionM3(m.getGasConsumptionM3().subtract(offset));
+                offset = temp;
             }
         }
         // ok now we only have changed gas measurements
